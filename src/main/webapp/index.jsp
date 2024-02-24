@@ -15,7 +15,7 @@
     } else {
         greeting = "Good evening";
     }
-    String name = "Maria Navarrete"; //write your name here
+    String name = "Maria Navarrete"; //write your name here (Maria Navarrete)
 %>
 <h1><%= greeting %>, <%= name %>, Welcome to COMP367</h1>
 </body>
