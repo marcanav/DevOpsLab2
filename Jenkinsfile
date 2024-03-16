@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        // Specify the agent to run Windows
-        label 'windows'
-    }
+    agent any
 
     tools {
         // Make sure Maven is installed under this name in Global Tool Configuration
