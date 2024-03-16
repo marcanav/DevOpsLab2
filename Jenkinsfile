@@ -6,9 +6,9 @@ pipeline {
 
     tools {
         // Make sure Maven is installed under this name in Global Tool Configuration
-        maven 'Maven' 
+        maven 'MAVEN3' 
         // Ensure JDK is setup
-        jdk 'JDK'
+        jdk 'JDK17'
     }
 
     stages {
